@@ -1,0 +1,6 @@
+{
+  "name": "Aura Jewelry",
+  "description": "A modern, elegant landing page for a premium jewelry brand specializing in decorative stones.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

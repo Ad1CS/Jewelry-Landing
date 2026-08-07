@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Lato", sans-serif;
+  --color-stone-50: #fcfaf7;
+  --color-stone-100: #f5f2ed;
+  --color-stone-200: #ece9e4;
+  --color-stone-300: #e5e1da;
+  --color-stone-400: #d4c5b3;
+  --color-stone-500: #b89c7d;
+  --color-stone-600: #1a1a1a;
+  --color-stone-900: #1a1a1a;
+  --color-stone-950: #111111;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply font-sans antialiased bg-stone-50 text-stone-900;
+}
